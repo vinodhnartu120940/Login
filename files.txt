@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=q-Zyc7Lw-_0
+for icons implemention in input value box
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    /* STYLES HERE */
+}
+
+
+// validation for email and password
+https://www.youtube.com/watch?v=9zzX2fbkzWU

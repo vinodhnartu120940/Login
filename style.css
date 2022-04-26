@@ -7,13 +7,19 @@ form {
     border: none solid green;
     background-color: white;
     border-radius: 45px;
+    /* top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    box-sizing: border-box; */
+    /* width: 370px; */
 }
 
 /* .form input button { 
     width: 56vw;
 } */
 .form-control {
-    padding: 1rem 0.75rem;
+    padding: 1rem 2.75rem;
     background-color: #e9ecefed;
     border-radius: 2rem;
 }
@@ -25,12 +31,59 @@ form {
     border-radius: 2rem;
     padding: 1rem;
 }
+
 .pt-5 {
-    padding-top: 5rem!important;
+    padding-top: 5rem !important;
+    /* width: 370px; */
 }
+
 .row {
     --bs-gutter-x: 7.5rem;
 }
+
 .mt-5 {
-    margin-top: 6rem!important;
+    margin-top: 6rem !important;
+}
+
+.avatar {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 46%;
+}
+
+.fa-solid,
+.fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-left: 17px;
+    margin-top: 22px;
+    position: absolute;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .avatar {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        position: absolute;
+        top: 35px;
+        left: 43%;
+    }
+    
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    .avatar {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        position: absolute;
+        top: 35px;
+        left: 41%;
+    }
+}
+.ps-5{
+    display: none;
 }
