@@ -1,0 +1,36 @@
+.container-fluid {
+    height: 100vh;
+    background-color: #00d2ff;
+}
+
+form {
+    border: none solid green;
+    background-color: white;
+    border-radius: 45px;
+}
+
+/* .form input button { 
+    width: 56vw;
+} */
+.form-control {
+    padding: 1rem 0.75rem;
+    background-color: #e9ecefed;
+    border-radius: 2rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0bb5d7;
+    border-color: #0a58ca;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.pt-5 {
+    padding-top: 5rem!important;
+}
+.row {
+    --bs-gutter-x: 7.5rem;
+}
+.mt-5 {
+    margin-top: 6rem!important;
+}
