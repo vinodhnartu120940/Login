@@ -51,8 +51,8 @@ form {
     border-radius: 50%;
     position: absolute;
     top: 35px;
-    left: 46%;
-}
+    left: 42%;
+  }
 
 .fa-solid,
 .fas {
@@ -72,9 +72,10 @@ form {
         top: 35px;
         left: 43%;
     }
-    
+
 }
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
     .avatar {
         width: 125px;
         height: 125px;
@@ -84,6 +85,7 @@ form {
         left: 41%;
     }
 }
-.ps-5{
+
+.ps-5 {
     display: none;
 }

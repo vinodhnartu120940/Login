@@ -19,7 +19,7 @@ function validated() {
     }
     alert("login successfull")
 }
-username.addEventListener('textInput', function userVerify() {
+username.addEventListener('keyup', function userVerify() {
     if (username.value.length >= 8) {
         username.style.border = "3px solid green";
         username_err.style.display = "none";
@@ -31,7 +31,7 @@ username.addEventListener('textInput', function userVerify() {
 
 
 })
-password.addEventListener('textInput', function passwordVerify() {
+password.addEventListener('keyup', function passwordVerify() {
     if (password.value.length >= 8) {
         password.style.border = "3px solid green";
         password_err.style.display = "none";
@@ -44,4 +44,18 @@ password.addEventListener('textInput', function passwordVerify() {
 
 })
 
+// let email = document.getElementById('from1Example1');
+// let password = document.getElementById('form1Example2');
 
+
+// function validated() {
+//     if (email.value.length == 0 || email.value.length < 9) {
+//         email.style.border = "2px solid red";
+//         email.focus();
+//     }
+// }
+// email.addEventListener("textInput", function emailVerify() {
+//     if (email.value.length == 0 || email.vlaue.length < 9) {
+//         email.style.border = "1px solid red"
+//     }
+// })
